@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_schedule"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="15dp"
+    android:paddingBottom="15dp"
+    tools:context="com.geekwims.hereiam.activity.ScheduleActivity">
+    <LinearLayout
+        android:id="@+id/table_schedule"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/period" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/border_left_top"
+                android:gravity="center"
+                android:text="@string/SUN" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/MON" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/TUE" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/WED" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/THU" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_left_top"
+                android:text="@string/FRI" />
+            <com.geekwims.hereiam.widget.FontText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/border_no_bottom"
+                android:text="@string/SAT" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

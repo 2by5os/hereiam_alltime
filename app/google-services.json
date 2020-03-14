@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "390249407514",
+    "firebase_url": "https://hereiam-402d0.firebaseio.com",
+    "project_id": "hereiam-402d0",
+    "storage_bucket": "hereiam-402d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:390249407514:android:f5fca258c942ae98",
+        "android_client_info": {
+          "package_name": "com.geekwims.hereiam"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "390249407514-270elgfccicj1cehcl59slklvea473hq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geekwims.hereiam",
+            "certificate_hash": "69365F927D89EAF8F6EE17852EEF6DF3A9D041F2"
+          }
+        },
+        {
+          "client_id": "390249407514-ur516l1v0q3llmcobuusq09vmml22r48.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAa1vwk8c92xH_L7FwjV4VGJuogo5j-N30"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "390249407514-ur516l1v0q3llmcobuusq09vmml22r48.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

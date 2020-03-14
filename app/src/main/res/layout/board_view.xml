@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <!--
+    <com.geekwims.hereiam.widget.FontText-->
+        <!--android:id="@+id/board_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:text="제목"-->
+        <!--android:textColor="#000000"-->
+        <!--android:textSize="24sp" />
+        -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/board_border"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:padding="5dp"
+        >
+        <com.geekwims.hereiam.widget.FontText
+            android:id="@+id/board_writer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#333333"
+            android:textSize="14sp"
+            android:text="작성자"
+            android:layout_marginBottom="5dp"
+            />
+        <com.geekwims.hereiam.widget.FontText
+            android:id="@+id/board_create_at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="작성일"
+            />
+    </LinearLayout>
+
+    <com.geekwims.hereiam.widget.FontText
+        android:id="@+id/board_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="내용"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/board_border"
+        android:minHeight="300dp"
+        android:padding="5dp"/>
+</LinearLayout>

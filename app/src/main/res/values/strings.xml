@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Here I Am</string>
+
+    <string name="action_settings">설정</string>
+
+    # login activity message
+    <string name="hint_student">학번</string>
+    <string name="hint_password">비밀번호</string>
+    <string name="hint_login">로그인</string>
+
+    # main activity message
+    <string name="attendance">출석</string>
+    <string name="timetable">시간표</string>
+    <string name="browse_attendance">출석조회</string>
+    <string name="ask_a_question">건의사항</string>
+    <string name="notice">공지사항</string>
+    <string name="setting">설정</string>
+
+    # attendance activity message
+    <string name="next_course_info_title">다음 강의 예정</string>
+
+    # progress dialog message
+    <string name="loading_message">불러오는 중</string>
+    <string name="next_course_title">다음 강의 정보</string>
+    <string name="cur_course_title">현재 강의 정보</string>
+    <string name="title_paired_devices">페어링된 기기</string>
+    <string name="title_other_devices">사용 가능한 다른 기기</string>
+    <string name="button_scan">장비 검색</string>
+    <string name="select_device">장비를 선택하세요</string>
+    <string name="none_found">발견된 장비가 없습니다</string>
+    <string name="scanning">검색 중…</string>
+    <string name="none_paired">페어링 된 장비가 없습니다</string>
+    <string name="bt_not_enabled_leaving">블루투스가 작동하지 않습니다</string>
+    <string name="confirm">확인</string>
+    <string name="retry">재시도</string>
+    <string name="period">교시</string>
+    <string name="SUN">일</string>
+    <string name="MON">월</string>
+    <string name="TUE">화</string>
+    <string name="WED">수</string>
+    <string name="THU">목</string>
+    <string name="FRI">금</string>
+    <string name="SAT">토</string>
+    <string name="action_logout">로그아웃</string>
+</resources>

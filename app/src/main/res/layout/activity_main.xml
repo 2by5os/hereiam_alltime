@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_attend"
+        style="@style/MainItem"
+        android:background="@color/apricot">
+
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/icon_attend" />
+
+        <com.geekwims.hereiam.widget.FontText
+            style="@style/MainItemText"
+            android:text="@string/attendance" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_schedule"
+        style="@style/MainItem"
+        android:background="#F67280">
+
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/icon_timetable" />
+
+        <com.geekwims.hereiam.widget.FontText
+            style="@style/MainItemText"
+            android:text="@string/timetable" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_history"
+        style="@style/MainItem"
+        android:background="#C06C84">
+
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/icon_search" />
+
+        <com.geekwims.hereiam.widget.FontText
+            style="@style/MainItemText"
+            android:text="@string/browse_attendance" />
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--style="@style/MainItem"-->
+        <!--android:background="#6C5B7B">-->
+
+        <!--<ImageView-->
+            <!--style="@style/MainIcon"-->
+            <!--android:src="@drawable/icon_notice" />-->
+
+        <!--<com.geekwims.hereiam.widget.FontText-->
+            <!--style="@style/MainItemText"-->
+            <!--android:text="@string/ask_a_question" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:id="@+id/btn_board_start"
+        style="@style/MainItem"
+        android:background="#355C7D">
+
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/icon_question" />
+
+        <com.geekwims.hereiam.widget.FontText
+            style="@style/MainItemText"
+            android:text="@string/notice" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btn_setting_start"
+        style="@style/MainItem"
+        android:background="#373B3C"
+        android:clickable="true">
+
+        <ImageView
+            style="@style/MainIcon"
+            android:src="@drawable/icon_setting" />
+
+        <com.geekwims.hereiam.widget.FontText
+            style="@style/MainItemText"
+            android:text="@string/setting" />
+    </LinearLayout>
+</LinearLayout>
